@@ -1,0 +1,102 @@
+body{
+    background-color: white;
+    color: rgb(0, 3, 51)
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:25%;
+}
+
+p, h1{
+    font-family: monospace;
+}
+
+p{
+    font-size: 125%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+h1{
+    font-size: 300%;
+    background-color: rgb(255, 190, 222);
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+h2{
+    text-align: center;
+    font-family: monospace;
+    font-size: 200%;
+}
+
+/* navbar */
+.topnav {
+    background-color: #181249;
+    overflow: hidden;
+  }
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: monospace;
+ }
+ .topnav a:hover {
+    background-color: #b4e3f8;
+    color: black;
+  }
+
+.active{
+    background-color: #434b92;
+}
+
+/* homepage */
+.home{
+    display: flex; 
+    align-items: center;
+    margin-top: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.heading h2{
+    text-align: center;
+    font-size: 200%;
+    padding-top: 15px;
+    padding-bottom: 1cap;
+}
+
+.social img{
+    width: 6%;
+    height: auto;
+}
+
+/* about me */
+.statement {
+    display: flex; 
+    align-items: center;
+    margin-top: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+.statement img {
+    width: 35%;
+    height: 35%;
+}
+
+.statement p{
+    margin: 15px;
+}
+
+.contact {
+    text-align: center;
+}
