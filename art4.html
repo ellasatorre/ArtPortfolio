@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Light Box</title>
+    <link rel="icon" href="goodaxolt.png">
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <h1>Ella Satorre</h1>
+
+<!-- navbar -->
+<div class="topnav" id="myTopnav">
+    <a href="index.html">Home</a>
+    <a href="aboutme.html">About Me</a>
+    <div class="dropdown">
+        <button class="dropbtn"> 
+            Gallery
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="gallery1.html">Art 74</a>
+          <a href="gallery2.html">College of the Sequoias</a>
+          <a href="gallery3.html">Personal Works</a>
+        </div>
+      </div> 
+      <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+    <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
+
+<br>
+<br>
+
+<!-- Image -->
+ <h2>Light Box</h2>
+
+<p>
+  This project was one of my bigger projects during my time at College of the Sequoias. For this project, 
+</p>
+
+<br>
+
+<!-- Image grid -->
+<div class="grid-container">
+
+  <div class="grid-item">
+      <video autoplay controls loop muted>
+        <source src="SatorreElla_BP03_ArduinoBuild.mp4" type="video/mp4">
+        </video>
+    </div>
+  
+    <div class="grid-item">
+      <video autoplay controls loop muted>
+        <source src="SatorreElla_BP03_LightCubeVideo.mp4" type="video/mp4">
+        </video>      
+    </div>  
+    <div class="grid-item">
+      <img src="SatorreElla_BP03_Side04.PNG">
+    </div>  
+  
+  </div>
+
+</body>
+</html>

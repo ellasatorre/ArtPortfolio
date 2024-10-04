@@ -11,16 +11,39 @@
 
     <h1>Ella Satorre</h1>
 <!-- navbar -->
-<div class="topnav">
+<div class="topnav" id="myTopnav">
     <a class="active" href="index.html">Home</a>
     <a href="aboutme.html">About Me</a>
-    <a href="gallery.html">Gallery</a>
-  </div>
+    <div class="dropdown">
+        <button class="dropbtn"> 
+            Gallery
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="gallery1.html">Art 74</a>
+          <a href="gallery2.html">College of the Sequoias</a>
+          <a href="gallery3.html">Personal Works</a>
+        </div>
+      </div> 
+      <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+    <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
 
+<!-- Heading -->
 <div class="heading">
     <h2>Works</h2>
 </div>
 
+<!-- Images -->
 <div class="home">
     <img src="ceramicseal.jpg">
     <img src="SatorreElla_JE07_Animation_04.gif">

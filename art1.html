@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twine Project</title>
+    <link rel="icon" href="goodaxolt.png">
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <h1>Ella Satorre</h1>
+
+<!-- navbar -->
+<div class="topnav" id="myTopnav">
+    <a href="index.html">Home</a>
+    <a href="aboutme.html">About Me</a>
+    <div class="dropdown">
+        <button class="dropbtn"> 
+            Gallery
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="gallery1.html">Art 74</a>
+          <a href="gallery2.html">College of the Sequoias</a>
+          <a href="gallery3.html">Personal Works</a>
+        </div>
+      </div> 
+      <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+    <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
+
+<br>
+<br>
+
+<!-- Image -->
+ <h2>Twine Project</h2>
+
+
+
+<p>
+  In this project, I utilized Twine in order to make a "choose your own adventure" esque story. In the story, you are a wizard greeted by a mysterious figure who asks for your help. You make your own choices to reach the ending of the story.
+</p>
+
+<br>
+
+<a href="twine.html" target="_blank"> <h2>Check it out!</h2> </a>
+<img src="twinestart.PNG">
+
+</body>
+</html>

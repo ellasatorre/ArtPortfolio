@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="icon" href="goodaxolt.png">
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <h1>Ella Satorre</h1>
+
+<!-- navbar -->
+<div class="topnav" id="myTopnav">
+    <a href="index.html">Home</a>
+    <a href="aboutme.html">About Me</a>
+    <div class="dropdown">
+        <button class="dropbtn"> 
+            Gallery
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="gallery1.html">Art 74</a>
+          <a href="gallery2.html">College of the Sequoias</a>
+          <a href="gallery3.html">Personal Works</a>
+        </div>
+      </div> 
+      <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+    <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
+
+<!-- Image grid -->
+<div class="grid-container">
+
+  <div class="grid-item">
+
+    </div>
+  
+    <div class="grid-item">
+     
+    </div>  
+    
+  </div>
+
+</body>
+</html>
