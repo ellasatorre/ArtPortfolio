@@ -1,12 +1,12 @@
 body{
-    color: rgb(0, 3, 51);
+    color: black;
 }
 
 img{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width:25%;
+    width:50%;
 }
 
 video{
@@ -27,7 +27,7 @@ p{
 h1{
     color: #1f0047;
     font-size: 400%;
-    font-family: arial black, sans-serif;
+    font-family: arial black;
     font-variant: small-caps;
     background-image: url(banner.png);
     background-size: cover;
@@ -45,7 +45,7 @@ h2{
 
 /* navbar */
 .topnav {
-    background-color: #181249;
+    background-color: #ff6ca9;
     overflow: hidden;
   }
 .topnav a {
@@ -59,7 +59,7 @@ h2{
  }
 
 .active{
-    background-color: #434b92;
+    background-color: #ff3c87;
 }
 
 .topnav .icon {
@@ -101,7 +101,7 @@ h2{
   }
   
   .topnav a:hover, .dropdown:hover .dropbtn {
-    background-color: #b4e3f8;
+    background-color: #ffd5ec;
     color: #181249;
   }
   
